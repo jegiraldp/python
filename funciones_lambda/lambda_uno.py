@@ -1,3 +1,7 @@
+def cuadrados(num):
+    return num ** 2
+print(cuadrados(3))
+
 cuadrado= lambda x: x**2
 print(cuadrado(2))
 
