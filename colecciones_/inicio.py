@@ -7,14 +7,13 @@ lista = []
 lista.append(p1)
 lista.append(p2)
 lista.append(p3)
-#lista.insert(2,p3)
+lista.insert(3,p1)
 #lista.remove(p1)
-#lista.pop(1)
-print(lista.count(p1))
-lista.reverse()
-print(len(lista))
+#lista.pop(1).
 
+for e in lista:
+    print(e.codigo)
 
-for pro in lista:
-    print(f"{pro.codigo} : {pro.nombre}")
+#for pro in lista:
+    #print(f"{pro.codigo} : {pro.nombre}")
     #print(str(pro.codigo)+": "+pro.nombre)
